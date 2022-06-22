@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/smoothness/jquery-ui.css">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"  integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA="  crossorigin="anonymous"></script>
+
+    <section id="tabs">
+            <ul>
+              <li><a href="#tabs-1">holi 1</a></li>
+              <li><a href="#tabs-2">holi 2</a></li>
+              <li><a href="#tabs-3">holi 3</a></li>
+            </ul>
+            <div id="tabs-1">
+              <img src="vegas.jpg">
+            </div>
+            <div id="tabs-2">
+              <img src="f22.jpg">
+            </div>
+            <div id="tabs-3">
+              <img src="awanta.jpg">
+            </div>
+    </section>
+    
+    <script>
+        $( function() {
+    $( "#tabs" ).tabs();
+  } );
+    </script>
+</body>
+</html>
